@@ -21,7 +21,7 @@ python <01_opencv_mac.py>
 
 ## Table of Contents
 
-- [01_opencv_basic](#updating-to-new-releases)
+- [01_opencv_basic](#Trying-out-core-functionality-of-opencv)
 
 
 ## Trying out core functionality of opencv
