@@ -34,4 +34,4 @@ python <01_opencv_mac.py>
 
 ## References
 
-* [opencv documents]http://docs.opencv.org/master/d3/df2/).
+* [opencv-python-tutorial](http://docs.opencv.org/master/)).
