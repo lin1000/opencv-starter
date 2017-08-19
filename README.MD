@@ -21,7 +21,7 @@ python -m opencvutil.01_opencv_basic.01_opencv_mac -i images/mac/mac-01.jpg
 ## Table of Contents
 
 - [01_opencv_basic](#Trying-out-core-functionality-of-opencv)
-
+- [02_image_preprocessing](#Image-Preprocessing)
 
 ## Trying out core functionality of opencv
 
@@ -29,7 +29,12 @@ python -m opencvutil.01_opencv_basic.01_opencv_mac -i images/mac/mac-01.jpg
 - [x] **pencvutil.01_opencv_basic.02_opencv_image** : display image by mpl(e.g. matplotlib)
 - [x] **opencvutil.01_opencv_basic.03_opencv_basicops.py** : handling the image and access pixels
 - [x] **opencvutil.01_opencv_basic.04_opencv_image_arithmetics**
-- [x] **opencvutil.01_opencv_basic.05_opencv_open_cv.py** : open camera and see yourself
+- [x] opencvutil.01_opencv_basic.05_opencv_open_cv.py** : open camera and see yourself
+
+## Image Preprocessing 
+- [x] **opencvutil.02_image_preprocessing.01_image_pyramids** : image pyramids
+- [x] **opencvutil.02_image_preprocessing.02_sliding_window** : sliding windows of a image
+- [x] **opencvutil.02_image_preprocessing.03_sliding_window_batch** : batching processing sliding windows of images 
 
 ## References
 
