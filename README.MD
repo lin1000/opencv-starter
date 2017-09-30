@@ -17,7 +17,6 @@ workon cv
 python -m opencvutil.01_opencv_basic.01_opencv_mac -i images/mac/mac-01.jpg
 ```
 
-
 ## Table of Contents
 
 - [01_opencv_basic](#Trying-out-core-functionality-of-opencv)
@@ -29,9 +28,12 @@ python -m opencvutil.01_opencv_basic.01_opencv_mac -i images/mac/mac-01.jpg
 - [x] **pencvutil.01_opencv_basic.02_opencv_image** : display image by mpl(e.g. matplotlib)
 - [x] **opencvutil.01_opencv_basic.03_opencv_basicops.py** : handling the image and access pixels
 - [x] **opencvutil.01_opencv_basic.04_opencv_image_arithmetics**
-- [x] opencvutil.01_opencv_basic.05_opencv_open_cv.py** : open camera and see yourself
+- [x] **opencvutil.01_opencv_basic.05_opencv_open_cv.py** : open camera and see yourself
 - [x] **opencvutil.01_opencv_basic.06_opencv_bgr_to_hsv.py** : convert color space
-
+- [x] **opencvutil.01_opencv_basic.07_opencv_classify_color_space.py** : classify input image is grayscaled or bgr 
+```bash
+python -m opencvutil.01_opencv_basic.07_opencv_classify_color_space -i ./images/mac/mac-01.jpg
+```
 ## Image Preprocessing 
 - [x] **opencvutil.02_image_preprocessing.01_image_pyramids** : image pyramids
 - [x] **opencvutil.02_image_preprocessing.02_sliding_window** : sliding windows of a image
@@ -41,3 +43,4 @@ python -m opencvutil.01_opencv_basic.01_opencv_mac -i images/mac/mac-01.jpg
 
 * [opencv-python-tutorial](http://docs.opencv.org/master/)).
 * [Image Pyramids with Python and OpenCV](http://www.pyimagesearch.com/2015/03/16/image-pyramids-with-python-and-opencv/)
+* [How to choose color space](http://www.learnopencv.com/color-spaces-in-opencv-cpp-python/)
