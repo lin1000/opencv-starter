@@ -30,6 +30,7 @@ python -m opencvutil.01_opencv_basic.01_opencv_mac -i images/mac/mac-01.jpg
 - [x] **opencvutil.01_opencv_basic.03_opencv_basicops.py** : handling the image and access pixels
 - [x] **opencvutil.01_opencv_basic.04_opencv_image_arithmetics**
 - [x] opencvutil.01_opencv_basic.05_opencv_open_cv.py** : open camera and see yourself
+- [x] **opencvutil.01_opencv_basic.06_opencv_bgr_to_hsv.py** : convert color space
 
 ## Image Preprocessing 
 - [x] **opencvutil.02_image_preprocessing.01_image_pyramids** : image pyramids
