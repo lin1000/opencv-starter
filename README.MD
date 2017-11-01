@@ -46,7 +46,7 @@ python -m opencvutil.01_opencv_basic.07_opencv_classify_color_space -i ./images/
 * [How to choose color space](http://www.learnopencv.com/color-spaces-in-opencv-cpp-python/)
 
 
-## How to publish to PyPiLive and PyPiTest
+## How to publish to PyPiLive and PyPiTest (http://peterdowns.com/posts/first-time-with-pypi.html)
 
 ```
 touch setup.cfg (and prepare the content)
