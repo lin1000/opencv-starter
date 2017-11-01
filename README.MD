@@ -44,3 +44,13 @@ python -m opencvutil.01_opencv_basic.07_opencv_classify_color_space -i ./images/
 * [opencv-python-tutorial](http://docs.opencv.org/master/)).
 * [Image Pyramids with Python and OpenCV](http://www.pyimagesearch.com/2015/03/16/image-pyramids-with-python-and-opencv/)
 * [How to choose color space](http://www.learnopencv.com/color-spaces-in-opencv-cpp-python/)
+
+
+## How to publish to PyPiLive and PyPiTest
+
+```
+touch setup.cfg (and prepare the content)
+touch setup.py (and prepare the content)
+python setup.py sdist upload -r pypitest
+python setup.py sdist upload -r pypi
+```
