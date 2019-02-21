@@ -3,7 +3,7 @@ This project is experiments on opencv3.X
 
 ## Preparing virtual environment
 ```
-brew instll openv
+brew instll opencv
 pip install virtualenv virtualenvwrapper
 mkvirtualenv cv -p python3
 cd ~/.virtualenvs/cv

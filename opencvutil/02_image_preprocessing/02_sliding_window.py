@@ -9,13 +9,12 @@ import sys
 parser = argparse.ArgumentParser()
 parser.add_argument("-i", "--image", required=True, help="Path to the image(no default)")
 parser.add_argument("-w", "--window", type=int, default=128, help="window size (default:%(default).1d)")
-parser.add_argument("-s", "--stepsize", type=int, default=8, help="step size for stride(default:%(default).1d)" )
+parser.add_argument("-s", "--stepsize", type=int, default=8, help="step size for stride(default:%(default).1d)")
 args = vars(parser.parse_args())
 
 if( len( args ) == 0):
     parser.print_help()
     sys.exit(1)
-
 
 def sliding_window(image, stepSize, windowSize):
 	# slide a window across the image
@@ -23,8 +22,6 @@ def sliding_window(image, stepSize, windowSize):
 		for x in range(0, image.shape[1], stepSize):
 			# yield the current window
 			yield (x, y, image[y:y + windowSize[1], x:x + windowSize[0]])
-
-
 
 # load the image
 image = cv2.imread(args["image"])
